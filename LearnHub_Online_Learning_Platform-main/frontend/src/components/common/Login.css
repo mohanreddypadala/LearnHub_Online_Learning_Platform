@@ -1,0 +1,44 @@
+/* Background */
+.login-bg {
+  min-height: 100vh;
+  background: url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f")
+    center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Glass card */
+.login-card {
+  width: 420px;
+  padding: 35px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.85); /* clearer */
+  backdrop-filter: blur(14px);
+}
+
+/* Icon */
+.login-icon {
+  width: 60px;
+  height: 60px;
+  background: #8e24aa;
+  color: white;
+  border-radius: 50%;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+/* Inputs */
+.login-card input {
+  height: 45px;
+  font-size: 15px;
+}
+
+/* Button */
+.login-card button {
+  height: 45px;
+  font-weight: 600;
+}
